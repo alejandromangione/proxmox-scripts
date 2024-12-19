@@ -57,7 +57,7 @@ sh -c "$(wget --no-cache -qO- https://raw.githubusercontent.com/ej52/proxmox/mai
 
 ## Applications
 
-[Nginx Proxy Manager](https://github.com/ej52/proxmox/tree/main/apps/nginx-proxy-manager)
+[Nginx Proxy Manager](https://github.com/alejandromangione/proxmox/tree/main/apps/nginx-proxy-manager)
 
 ## Thanks
 
