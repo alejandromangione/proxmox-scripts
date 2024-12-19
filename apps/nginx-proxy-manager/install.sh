@@ -92,7 +92,8 @@ step_start "Python"
   # Remove old venv and global pip packages
   rm -rf /opt/certbot/ /usr/bin/certbot
   if [ "$(command -v pip)" ]; then
-    pip uninstall -q -y cryptography cffi certbot tldextract --break-system-packages &>$__OUTPUT
+    pip uninstall -q -y cryptography cffi certbot tldextract &>$__OUTPUT
+    # --break-system-packages 
   fi
 
   # Remove potential conflicting depenedencies
